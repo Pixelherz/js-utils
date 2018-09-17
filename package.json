@@ -2,7 +2,15 @@
   "name": "@pixelherz/js-utils",
   "version": "1.0.0",
   "description": "Some JS utils we frequently use in our projects.",
+  "files": [
+    "dist",
+    "array.js",
+    "fun.js"
+  ],
   "scripts": {
+    "build": "babel src -d dist",
+    "watch": "babel --watch src -d dist",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,8 +22,8 @@
     "utils"
   ],
   "author": {
-    "name": "Pixelherz GmbH",
-    "email": "mail@pixelherz.com",
+    "name": "René Keller",
+    "email": "rek@pixelherz.com",
     "url": "https://pixelherz.com"
   },
   "license": "ISC",
@@ -27,5 +35,9 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "semi": false
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }

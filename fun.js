@@ -1,3 +1,1 @@
-const funUtils = require('./src/fun')
-
-module.exports = funUtils
+module.exports = require('./dist/fun')

@@ -1,3 +1,1 @@
-const arrayUtils = require('./src/array')
-
-module.exports = arrayUtils
+module.exports = require('./dist/array')
