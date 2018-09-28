@@ -5,7 +5,8 @@
   "files": [
     "dist",
     "array.js",
-    "fun.js"
+    "fun.js",
+    "html.js"
   ],
   "scripts": {
     "build": "babel src -d dist",
