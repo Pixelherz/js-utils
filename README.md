@@ -20,6 +20,17 @@ For usage examples see section [Utilities](#utilities) below.
 
 ### Array
 
+#### arrToClassName
+
+Returns string values from a given array as space separated string to be used as class names. Empty items in the array are ignored.
+
+```js
+import { arrToClassName } from '@pixelherz/js-utils/array'
+// Usage sample taken from a react component
+const hostClasses = ['host', isActive && 'host--active']
+<div className={arrToClassName(hostClasses)}></div>
+```
+
 #### randItem
 
 Returns a random item from a given array
@@ -51,6 +62,17 @@ const projectInfo = {
   },
 }
 signConsole(projectInfo)
+```
+
+### String
+
+#### strToHash
+
+Returns a hash from a given string
+
+```js
+import { strToHash } from '@pixelherz/js-utils/string'
+strToHash('foobar') // 
 ```
 
 
