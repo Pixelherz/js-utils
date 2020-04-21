@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.2.1] - 2020-04-21
+
+### Fixed
+
+- Added string module to npm package
+
 ## [v1.2.0] - 2020-04-21
 
 ### Added
@@ -15,7 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New feature `string/strToHash`
 
 
-[unreleased]: https://github.com/Pixelherz/js-utils/compare/v1.2.0...HEAD
+[unreleased]: https://github.com/Pixelherz/js-utils/compare/v1.2.1...HEAD
+[v1.2.1]: https://github.com/Pixelherz/js-utils/compare/v1.2.0...v1.2.1
 [v1.2.0]: https://github.com/Pixelherz/js-utils/compare/v1.1.2...v1.2.0
 [v1.1.2]: https://github.com/Pixelherz/js-utils/compare/v1.1.1...v1.1.2
 [v1.1.1]: https://github.com/Pixelherz/js-utils/compare/v1.1.0...v1.1.1

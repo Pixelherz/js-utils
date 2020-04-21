@@ -1,12 +1,13 @@
 {
   "name": "@pixelherz/js-utils",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Some JS utils we frequently use in our projects.",
   "files": [
     "dist",
     "array.js",
     "fun.js",
-    "html.js"
+    "html.js",
+    "string.js"
   ],
   "scripts": {
     "build": "babel src -d dist",
