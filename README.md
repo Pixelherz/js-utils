@@ -64,6 +64,41 @@ const projectInfo = {
 signConsole(projectInfo)
 ```
 
+### Prismic
+
+Utils tailored to work with [Prismic](https://prismic.io/).
+
+#### wordbreakTruncateRichText
+
+Truncates a given Prismic richtext to a given max length and appends a given string at the end.  
+**NOTE:** Only the first element in the richtext object is truncated and returned.
+
+```js
+import { wordbreakTruncateRichText } from '@pixelherz/js-utils/prismic'
+const prismicRichText = [{
+  spans: [
+    { start: 2, end: 5, type: 'strong' },
+    { start: 8, end: 25, type: 'strong' },
+    { start: 26, end: 30, type: 'strong' },
+  ],
+  text: 'the quick brown fox jumps over the lazy dog.',
+  type: 'paragraph',
+}]
+wordbreakTruncateRichText(prismicRichText, 18, '…')
+/*
+[{
+  spans:[
+    { start: 2, end: 5, type: 'strong' },
+    { start: 8, end: 15, type: 'strong' },
+  ]
+  text: 'the quick brown…',
+  type: 'paragraph',
+}]
+*/
+
+```
+
+
 ### String
 
 #### strToHash
@@ -72,7 +107,17 @@ Returns a hash from a given string
 
 ```js
 import { strToHash } from '@pixelherz/js-utils/string'
-strToHash('foobar') // 
+strToHash('foo') // 101574
+```
+
+#### wordbreakTruncate
+
+Truncates a given string to a given max length and appends a given string at the end.
+
+```js
+import { wordbreakTruncate } from '@pixelherz/js-utils/string'
+wordbreakTruncate('the quick brown fox jumps over', 24, '…') 
+// the quick brown fox…
 ```
 
 

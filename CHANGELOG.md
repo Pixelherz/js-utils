@@ -1,3 +1,5 @@
+js-utils - Some JS utils we frequently use in our projects.
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -6,6 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [v1.3.0] - 2020-04-24
+
+### Added
+
+- Added `wordbreakTruncate` to string module
+- Added `wordbreakTruncateRichText` to new prismic module
 
 ## [v1.2.1] - 2020-04-21
 
@@ -21,7 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New feature `string/strToHash`
 
 
-[unreleased]: https://github.com/Pixelherz/js-utils/compare/v1.2.1...HEAD
+[unreleased]: https://github.com/Pixelherz/js-utils/compare/v1.3.0...HEAD
+[v1.3.0]: https://github.com/Pixelherz/js-utils/compare/v1.2.1...v1.3.0
 [v1.2.1]: https://github.com/Pixelherz/js-utils/compare/v1.2.0...v1.2.1
 [v1.2.0]: https://github.com/Pixelherz/js-utils/compare/v1.1.2...v1.2.0
 [v1.1.2]: https://github.com/Pixelherz/js-utils/compare/v1.1.1...v1.1.2
