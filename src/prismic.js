@@ -10,6 +10,7 @@ const wordbreakTruncate = require('./string').wordbreakTruncate
  * @param {string} append String to be appended to the truncated string
  */
 const wordbreakTruncateRichText = (richText, maxLength, append = '') => {
+  if (!richText[0]) return richText
   const { spans, text, type } = richText[0]
   const truncated = wordbreakTruncate(text, maxLength, append)
   const filteredSpans = []

@@ -1,6 +1,6 @@
 {
   "name": "@pixelherz/js-utils",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Some JS utils we frequently use in our projects.",
   "files": [
     "dist",
