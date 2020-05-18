@@ -28,8 +28,9 @@ const signConsole = ({ name, version, description, author }) => {
     `${author.name} ❤️ you - ${author.url}`,
   ]
   console.log(`\n
-      [${name}: v${version}] - ${description}
-      ${randItem(authorTagLines)}\n \n `)
+    ${name} ${version}
+    ${description}
+    ${randItem(authorTagLines)}\n \n `)
 }
 
 module.exports = {

@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.3.2] - 2020-05-18
+
+### Fixed
+
+- `signConsole`: Cleaner console output
+
 ## [v1.3.1] - 2020-05-13
 
 ### Fixed
@@ -36,7 +42,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New feature `string/strToHash`
 
 
-[unreleased]: https://github.com/Pixelherz/js-utils/compare/v1.3.1...HEAD
+[unreleased]: https://github.com/Pixelherz/js-utils/compare/v1.3.2...HEAD
+[v1.3.2]: https://github.com/Pixelherz/js-utils/compare/v1.3.1...v1.3.2
 [v1.3.1]: https://github.com/Pixelherz/js-utils/compare/v1.3.0...v1.3.1
 [v1.3.0]: https://github.com/Pixelherz/js-utils/compare/v1.2.1...v1.3.0
 [v1.2.1]: https://github.com/Pixelherz/js-utils/compare/v1.2.0...v1.2.1
